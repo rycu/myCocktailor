@@ -1,0 +1,23 @@
+{
+  "name": "mycocktailor.com",
+  "description": "made to measure",
+  "authors": [
+    "Ryan Cutter"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.1",
+    "normalize-css": "normalize.css#^3.0.3",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

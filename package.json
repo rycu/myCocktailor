@@ -1,5 +1,5 @@
 {
-  "name": "mycocktailor.com",
+  "name": "mycocktailor",
   "version": "1.0.0",
   "description": "made to measure",
   "author": "Ryan Cutter",
@@ -17,5 +17,18 @@
     "gulp-sourcemaps": "^1.12.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-uglify": "^1.5.4"
-  }
+  },
+  "main": "scripts.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rycu/myCocktailor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rycu/myCocktailor/issues"
+  },
+  "homepage": "https://github.com/rycu/myCocktailor#readme"
 }

@@ -1,0 +1,64 @@
+
+@media screen and (min-width: 375px){
+
+	.recaptchaBox{
+		height: 3.6em;
+		padding: 0.5em 0 1em;
+	}
+
+	#rc-imageselect, .g-recaptcha {
+	
+		transform:scale(0.99);
+		-webkit-transform:scale(0.99);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+
+
+		
+	}
+
+	#copy{
+		float:left;
+		padding: 0.7em 0 0 4%;
+		text-align: left;
+		width: auto;
+	}
+
+	.navBar ul{
+		padding: 0 2%;
+		float:right;
+	}
+
+
+}
+
+@media screen and (min-width: 414px){
+
+	#rc-imageselect, .g-recaptcha {
+		
+		position: relative;
+		transform:scale(1);
+		-webkit-transform:scale(1);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+		width: 304px;
+		margin: 0 auto;
+
+
+		
+	}
+
+
+
+
+}
+
+
+		
+
+
+
+
+
+
+

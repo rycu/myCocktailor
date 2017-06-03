@@ -1,0 +1,120 @@
+/*--------NOTICES--------*/
+
+#notices{
+	position: fixed;
+	width: 100%;
+	top: -10em;
+	z-index:10;
+}
+
+.noticeBox{
+	position: relative;
+	margin: 0 auto;
+	max-width: 90%;
+	border: none;
+	box-shadow: 0 0 0.3em #666;
+	
+}
+
+.noticeBoxMsg{
+	display: inline-block;
+	margin: 0 1.2em 0 1.5em;
+	font-size: 1em;
+	line-height: 1.3em;
+	
+	p{
+		margin-bottom: 0.8em;
+	}
+	
+	a{
+		text-decoration: underline;
+	}
+
+	button{
+		padding: 0.2em 0.6em;
+		border: none;
+		border-radius: 0.4em;
+		color: #fff;
+		letter-spacing: 0.05em;
+		@include baseGrad(#333, 3%);
+	}
+	
+	
+	
+}
+
+.sticky .noticeBoxMsg{
+	margin: 0 4em 0 1em;
+}
+
+.errorBox{
+	
+	@include baseGrad(orange, 10%);
+
+	.noticeBoxMsg p:before{
+		color: #000;
+		margin-right: 0.4em;
+		@extend .fa, .fa-exclamation-triangle, .fa-lg;
+	}
+}
+
+.updateBox{
+
+	@include baseGrad(#00B200, 5%);
+
+	.noticeBoxMsg p:before{
+		color: #000;
+		margin-right: 0.4em;
+		@extend .fa, .fa-info-circle, .fa-lg;
+	}
+}
+
+.debugBox{
+
+	@include baseGrad(#333, 5%);
+
+	.noticeBoxMsg p{
+		color: #fff;
+		font-family: 'Courier New';
+	}
+
+	.noticeBoxMsg p:before{
+		color: #fff;
+		margin-right: 0.4em;
+		@extend .fa, .fa-bug;
+	}
+
+}
+
+.noticeBox .closeBox{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3.6em;
+	height: 100%;
+	@include baseGrad(#333, 5%);
+	border: none;
+	i{
+		position: absolute;
+		top: 50%;
+		color: #fff;
+		width: 100%;
+		margin-top: -0.4em;
+		text-align: center;
+		@extend .fa, .fa-times, .fa-lg;
+		
+	
+	}
+	
+	
+
+}
+
+.noticeBox .closeBox:hover{
+	
+	background-color: #000;
+	i{
+		color: #ccc;
+	}
+	cursor: pointer;
+}

@@ -1,0 +1,111 @@
+/*--------NAVAGATION--------*/
+
+#navBox{
+	float: left;
+	width: 100%;
+	background-color: #fff; 
+}
+
+.nav{
+	float: left;
+	width: 100%;
+}
+
+#copy{
+	color: #fff;
+	float:left;
+	width: 100%;
+	text-align: center;
+	padding: 0.7em 0;
+}
+
+.navBar ul{
+	margin: 0 -0.2em;
+	display: block;
+	list-style: none;
+	padding: 0 12%;
+
+}
+
+.navBar li{
+	margin: 0.4em 0.7em;
+	display: list-item;
+	float: left;
+	font-variant: normal;
+}
+
+.navBar a{
+	padding: 0.3em 0.3em;
+	color: #333;
+	display: block;
+}
+
+.navBar a:hover{
+	background-color: #ccc;
+	color: #000;
+}
+
+.navBar .active{
+	background-color: #333;
+	color: #fff;
+}
+
+.navBar .navTitle{
+	color: #333;
+	padding: 0.3em 0.5em;
+	display: block;
+}
+
+
+
+
+
+#footNav{
+	font-size: 0.8em;
+
+
+}
+
+#footNav a{
+	color: #fff;
+}
+
+#footNav a:hover{
+	color: #333;
+	background-color: #ccc;
+}
+
+
+#footNav .navTitle{
+	color: #fff;
+}
+
+
+#searchBox{
+	float: right;
+	margin: 0.5em 0;
+}
+
+#searchBox input{
+	border-radius: 1.2em;
+	background-color: #eee;
+	width: 14em;
+	text-indent: 2.2em;
+	
+}
+
+#searchBox input:focus{
+	background-color: #fff;
+	outline: 0;
+	
+}
+
+
+#searchBox .innerLabel{
+	width: 0;
+	height: 0;
+	margin-left: -9.6em;
+	color: #999;
+	font-size: 1em;
+	pointer-events:none;
+}

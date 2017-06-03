@@ -1,0 +1,157 @@
+main{
+	float: left;
+	width: 100%;
+	//padding: 0.2em 0;
+	background-color: #fff;
+	h2{
+		color: #333;
+		margin: 0.6em 0 0.4em; 
+	}
+	margin-bottom: 4em;
+}
+
+.recipeLink{
+
+	float: left;
+	width: 80%;
+	padding: 1em 10%;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: normal;
+
+
+	.recipeTitle{
+		float: left;
+	}
+
+	.recipeAuthor{
+		float: right;
+		font-size: 0.8em;
+		margin-top: 0.2em;
+	}
+
+	.favStarTrue{
+		font-size: 0.8em;
+		margin-left: 0.4em;
+		float: right;
+	}
+
+
+}
+
+#recipeSearch{
+
+	text-align: center;
+	width: 80%;
+	margin: 0 10% 1em;
+	padding: 0.2em;
+	border: 0.1em solid #ccc;
+	box-sizing: border-box;
+
+}
+
+
+////BOX COLOURS////
+
+.light{
+	color: #ffffff;
+	@include placeholder(#eee);
+	h1, #closeX{
+		color: #ffffff;
+	}
+
+	.favStarTrue{
+	color: rgba(255,255,255,1);
+		&:hover{
+			color: rgba(255,255,225,0.4);
+		}
+	}
+	.favStarFalse{
+	color: rgba(255,255,255,0.4);
+		&:hover{
+			color: rgba(255,255,225,1);
+		}
+	}
+}
+
+.dark{
+	color: #333333;
+	@include placeholder(#999);
+	h1, #closeX{
+		color: #333333;
+	}
+
+	.favStarTrue{
+	color: rgba(51,51,51,1);
+		&:hover{
+			color: rgba(51,51,51,0.2);
+		}
+	}
+	.favStarFalse{
+	color: rgba(51,51,51,0.2);
+		&:hover{
+			color: rgba(51,51,51,1);
+		}
+	}
+}
+
+
+.BG-amber{
+	@include baseGrad(#cc6600, 8%);
+	@extend .light;
+}
+
+.BG-yellow{
+	@include baseGrad(#ffaa33, 8%);
+	@extend	.dark;
+}
+
+.BG-ruby{
+	@include baseGrad(#aa0000, 8%);
+	@extend .light;
+
+}
+
+.BG-slate{
+	@include baseGrad(#333, 8%);
+	@extend .light;
+}
+
+.BG-emerald{
+	@include baseGrad(#006622, 8%);
+	@extend .light;
+	
+}
+
+.BG-silver{
+	@include baseGrad(#ddd, 8%);
+	@extend	.dark;
+}
+
+.BG-sapphire{
+	@include baseGrad(#0088cc, 8%);
+	@extend .light;
+}
+
+.BG-bronze{
+	@include baseGrad(#440000, 8%);
+	@extend .light;
+}
+
+
+
+
+#termsPage, #privacyPage, #cookiesPage, #helpPage{
+	font-size: 0.8em;
+	ol{
+		padding-left: 2em;
+	}
+
+	li{
+		margin: 0 0 0.5em 0;
+	}
+}
+
+
+
+

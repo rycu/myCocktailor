@@ -1,0 +1,34 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@mixin baseGrad($colorIn, $swing){
+
+	background: $colorIn;
+	background: -moz-linear-gradient(-45deg, lighten( $colorIn, $swing ) 0%,  $colorIn 50%, darken( $colorIn, $swing ) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, lighten( $colorIn, $swing )), color-stop(50%, $colorIn), color-stop(100%, darken( $colorIn, $swing )));
+	background: -webkit-linear-gradient(-45deg, lighten( $colorIn, $swing ) 0%,  $colorIn 50%, darken( $colorIn, $swing ) 100%);
+	background: -o-linear-gradient(-45deg, lighten( $colorIn, $swing ) 0%,  $colorIn 50%, darken( $colorIn, $swing ) 100%);
+	background: -ms-linear-gradient(-45deg, lighten( $colorIn, $swing ) 0%,  $colorIn 50%, darken( $colorIn, $swing ) 100%);
+	background: linear-gradient(135deg, lighten( $colorIn, $swing ) 0%,  $colorIn 50%, darken( $colorIn, $swing ) 100%);
+}
+
+
+@mixin placeholder($colorIn){
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: $colorIn;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: $colorIn;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: $colorIn;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: $colorIn;
+	}
+}

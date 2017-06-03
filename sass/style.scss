@@ -1,0 +1,33 @@
+/**** helpers *****/
+@import 
+	'helpers/vars',
+	'helpers/functions',
+	'helpers/mixins';
+
+/**** vendors *****/
+@import
+  '../bower_components/normalize-css/normalize',
+  'vendor/font-awesome';
+
+/**** core *****/
+@import 
+	'core/typography',
+	'core/ui',
+	'core/notices',
+	'core/componants',
+	'core/nav';
+
+/**** partials *****/
+@import 
+	'partials/header',
+	'partials/main',
+	'partials/footer',
+	'partials/recipeCard',
+	'partials/overboxForms',
+	'partials/accInfo';
+
+/**** responsive *****/
+@import
+	'responsive/handheld',
+	'responsive/tablet',
+	'responsive/desktop';

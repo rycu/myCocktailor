@@ -1,0 +1,38 @@
+
+
+#updateFavUnits{
+
+
+	.formRow{
+		width: 100%;
+		padding: 0.2em 0.5em;
+		background-color: #fff;
+		border: solid 0.1em #ccc; 
+		border-radius: 0.3em;
+		margin-right: 0.2em;
+		box-sizing: border-box;
+		input{
+			-webkit-appearance: checkbox;
+			width: auto;
+			margin-top: 0.1em;
+		}
+		&:hover{
+			background-color: #eee;
+		}
+
+
+
+
+	}
+
+	.selectedBox{
+		@include baseGrad(#66dd66, 8%);
+		border: 1px solid #66dd66;
+	}
+
+
+
+}
+
+
+

@@ -1,0 +1,33 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$fa-css-prefix}-user:before { content: $fa-var-user; }
+.#{$fa-css-prefix}-users:before { content: $fa-var-users; }
+.#{$fa-css-prefix}-sign-in:before { content: $fa-var-sign-in; }
+.#{$fa-css-prefix}-sign-out:before { content: $fa-var-sign-out; }
+.#{$fa-css-prefix}-search:before { content: $fa-var-search; }
+.#{$fa-css-prefix}-question-circle:before { content: $fa-var-question-circle; }
+.#{$fa-css-prefix}-glass:before { content: $fa-var-glass; }
+
+.#{$fa-css-prefix}-exclamation-triangle:before { content: $fa-var-exclamation-triangle; }
+.#{$fa-css-prefix}-info-circle:before { content: $fa-var-info-circle; }
+.#{$fa-css-prefix}-bug:before { content: $fa-var-bug; }
+.#{$fa-css-prefix}-times:before { content: $fa-var-times; }
+
+
+.#{$fa-css-prefix}-plus-circle:before { content: $fa-var-plus-circle; }
+.#{$fa-css-prefix}-minus-circle:before { content: $fa-var-minus-circle; }
+.#{$fa-css-prefix}-plus:before { content: $fa-var-plus; }
+.#{$fa-css-prefix}-minus:before { content: $fa-var-minus; }
+.#{$fa-css-prefix}-star:before { content: $fa-var-star; }
+.#{$fa-css-prefix}-star-o:before { content: $fa-var-star-o; }
+
+
+.#{$fa-css-prefix}-edit:before { content: $fa-var-edit; }
+.#{$fa-css-prefix}-check:before { content: $fa-var-check; }
+
+.#{$fa-css-prefix}-share:before { content: $fa-var-share; }
+.#{$fa-css-prefix}-facebook:before { content: $fa-var-facebook; }
+.#{$fa-css-prefix}-twitter:before { content: $fa-var-twitter; }
+.#{$fa-css-prefix}-google-plus:before { content: $fa-var-google-plus; }
+.#{$fa-css-prefix}-pinterest-p:before { content: $fa-var-pinterest-p; }

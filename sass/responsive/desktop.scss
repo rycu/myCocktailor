@@ -1,0 +1,27 @@
+/*----------DESKTOP----------*/
+
+
+
+	@media screen and (max-width: 600px){
+		#xSmallDT{display: block;}
+		.detectBox{font-size: 2em;}
+	}
+	
+	@media screen and (min-width: 601px) and (max-width: 900px){
+		#smallDT{display: block;}
+		.detectBox{font-size: 4em;}
+	}
+	
+	@media screen and (min-width: 901px) and (max-width: 1100px){
+		#medDT{display: block;}
+	}
+	
+	@media screen and (min-width: 1101px) and (max-width: 1500px){
+		#largeDT{display: block;}
+		.detectBox{font-size: 6em;}
+	}
+	
+	@media screen and (min-width: 1501px){
+		#sLargeDT{display: block;}
+		.detectBox{font-size: 7em;}
+	}

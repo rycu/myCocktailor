@@ -1,0 +1,194 @@
+
+
+header{
+	float: left;
+	width: 100%;
+	@include baseGrad($baseColor, 12%);
+}
+
+
+
+#titleBox{
+
+	width: 15em;
+	height: 3.3em;
+	margin: 1em auto 0.5em;
+
+	img{
+		float: left;
+		height: 100%;
+	}
+
+	h1{
+		float: left;
+		color: #fff;
+		font-size: 1.7em;
+		margin-left: 0.4em; 
+		font-weight: normal;
+		letter-spacing: 0.05em;
+		margin-top: 0.4em;
+	}
+}
+
+#gatewayBox{
+	float: left;
+	width: 80%;
+	margin: 0.5em 10% 0;
+	padding-bottom: 3.4em;
+	position: relative;
+
+	button{
+		width:47.5%;
+		margin-bottom: 1em;
+		position: absolute;
+		bottom: 0em;
+		height: 2.4em;
+
+		background: none;
+		color: #fff;
+		border: 0.2em solid #fff;
+		padding-top: 0.35em;
+	}
+
+	input{
+		border: none;
+	}
+
+}
+
+
+
+/*-----------LOGIN-----------*/
+#loginPane{
+	display: none;
+}
+
+#loginReadout{
+	margin: 0.25em 1em 0 0;
+	float: left;
+	color: #fff;
+}
+
+#loginform .inputBox{
+	
+	position: relative;
+	margin-bottom: 1em;
+
+	input{
+	padding: 0.6em 14% 0.4em 3%;
+	width: 83%;
+	}
+
+	.innerLabel{
+	font-size: 1em;
+	position: absolute;
+	width: 0;
+	top: 0.6em;
+	left:  0.7em;
+	color: #888;
+	pointer-events:none;
+	visibility: visible;
+	}
+
+	.forgotBtn{
+	font-size: 1.6em;
+	color: #999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.1em 0.3em;
+
+	}
+
+}
+
+#loginform button{
+	left: 0em;
+}
+
+
+/*-----------SIGNUP-----------*/
+
+#signUpPane{
+	display: none;
+}
+
+#signUpform{
+
+	form{
+		margin:0;
+	}
+
+	legend{
+		font-size: 1.1em;
+		color: #fff;
+		font-style: italic;
+		margin-bottom: 1em;
+		font-weight: normal;
+		letter-spacing: 0.05em;
+	}
+
+	fieldset{
+		border-color: #fff;
+	}
+
+	.formRow{
+		margin-bottom: 1em;
+		
+		label{
+			width: 30%;
+			margin-top: 0.3em;
+			color: #fff;
+			text-align: right;
+		}
+
+		input{
+			padding-top: 0.5em;
+			float: right;
+			width: 60%;
+		}
+
+		a{
+			color: #fff;
+			&:hover {
+				color: #ccc;
+				cursor: pointer;
+			}
+		}
+
+
+	}
+
+
+	button{
+		right: 0em;
+	}
+
+}
+
+
+/*-----------USER-----------*/
+
+
+#userBtns{
+
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+	button{
+		position:relative;
+		display: inline-block;
+		float: left;
+		width: 21%;
+		margin: 0 2% 1em;
+		padding-top: 0.45em;
+
+		span{
+			display: none;
+		}
+
+	}
+
+}
+

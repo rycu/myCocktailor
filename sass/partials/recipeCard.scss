@@ -1,0 +1,236 @@
+#recipeCard, #addNewRecipe{
+
+	ul{
+		width:100%;
+		padding:0;
+		float: left;
+		margin: 0;
+	}
+
+	li{
+		float: left;
+		width:100%;
+		margin: 0.6em 0 0;
+		list-style-type: none;
+		
+		div{
+			margin: 0 0.1em;
+			font-weight: bold;
+		}
+
+		.ingName{
+			float: left;
+			max-width: 54%;
+		}
+
+		.ingQty{
+			float: right;
+			width:15%;
+			text-align: right;
+		}
+
+		.ingUnit{
+			float: right;
+			width:27%;
+		}
+
+	}
+
+	input{
+		border: dashed 1px #999;
+		border-radius: 0.3em;
+		width: 100%;
+		padding: 0.2em 0;
+		background-color: rgba(255,255,255,0.3);
+	}
+
+	textarea{
+		border: dashed 1px #999;
+		width: 100%;
+		box-sizing: border-box;
+		background-color: rgba(255,255,255,0.3);
+	}
+
+	select{
+		width: 100%;
+		font-size: 1em;
+		color: #333;
+	}
+
+	button{
+		float: left;
+		color: #333;
+	}
+
+	#method{
+		float: left;
+		width: 100%;
+		margin: 1em 0 0.5em;
+		font-style: italic;
+	}
+
+	#author{
+		float: left;
+		width: 100%;
+		margin: 0.2em 0 0;
+		input[name="author"]{
+			width: 8em;
+		}
+		input[name="year"]{
+			width: 3em;
+		}
+	}
+
+}
+
+#recipeCard{
+	
+	.ingName, .ingQty{
+		margin-top: 0.15em;
+	}
+
+	.changeAllBox{
+		float: right;
+		margin-top: 0.5em;
+	}
+
+	button{
+		margin-top: 1em;
+		width:100%;
+	}
+
+	#shareBox{
+		
+		float: left;
+		width:100%;
+		margin-top: 3em;
+		//background-color:pink;
+		font-size: 1.4em;
+		// .shareTitle{
+		// 	float: left;
+		// 	padding: 0 5%;
+		// 	width: 10%;
+		// 	@extend .fa, .fa-share;
+		// }
+
+		.shareBtn{
+			width: 10%;
+			padding: 0 7%;
+			float: left;
+			text-align: center;
+			
+			a{
+				color: inherit;
+			}
+
+			.share-facebook{
+				@extend .fa, .fa-facebook;
+			}
+
+			.share-twitter{
+				@extend .fa, .fa-twitter;
+			}
+
+			.share-g-plus{
+				@extend .fa, .fa-google-plus;
+			}
+
+			.share-pinterest{
+				@extend .fa, .fa-pinterest-p;
+			}
+
+
+			#report-cocktail{
+				@extend .fa, .fa-exclamation-triangle;
+				
+			}
+
+
+		}
+	}
+}
+
+
+.favStarFalse{
+	&:before{
+		@extend .fa, .fa-star-o;
+	}
+}
+
+
+.favStarTrue{
+	&:before{
+		@extend .fa, .fa-star;
+	}
+}
+
+
+
+#addNewRecipe{
+
+	select{
+		height: 1.7em;
+	}
+
+	#newCocktailName{
+		textarea{
+			font-size: 1.7em;
+			font-weight: bold;
+			height: auto;
+		}
+	}
+
+	#method{
+		textarea{
+			height: auto;
+		}
+	}
+
+	#delIng{
+		display: none;
+		width: 49%;
+		float: left;
+	}
+
+	#addIng{
+		float: right;
+	}
+
+	.ingTemplate{
+		display: none;
+	}
+
+	#colorPicker{
+
+		float: left;
+		width: 102%;
+		margin-top: 0.5em;
+		overflow: hidden;
+		margin-left: -3%;
+
+		input[type=radio]{
+    		display:none
+		}
+
+		input[type=radio]:checked + .colorPickBox{
+		    border: dashed 0.2em #fff;
+		}
+
+		.colorPickBox{
+			float: left;
+			width: 22%;
+			margin: 3% 0 0 3%;
+			border: dashed 1px #999;
+			//border: dashed 0.2em #fff;
+			border-radius: 10em;
+			box-sizing: border-box;
+		}
+
+		.colorPickBox:before{
+			content: "";
+			display: block;
+			padding-top: 100%;
+		}
+	}
+}
+

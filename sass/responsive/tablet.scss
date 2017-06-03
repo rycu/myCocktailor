@@ -1,0 +1,130 @@
+/*----------TABLET----------*/
+
+@media screen and (min-width: 640px){
+	
+	#signUpPane .formRow{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+		p{
+			text-align: center;
+		}
+	}
+
+	#addNewRecipe #colorPicker .colorPickBox{
+		width: 9.5%;
+		margin: 1% 0 0 3%;
+	}
+
+}
+
+@media screen and (min-width: 768px){
+
+	body{
+		font-size: 1.1em; 
+		font-family: Arial; 
+		color: #333;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1024px){
+
+	#gatewayBox{
+		width: 70%;
+		margin: 0.5em 15% 0;
+	}
+
+	#recipeSearch{
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.recipeLink{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+
+	}
+
+	#overBox #contents{
+		width: 70%;
+		height: 88%;
+		margin: 4% 15%;
+	}
+
+
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+	#titleBox{
+		margin-top: 2em;
+	}
+
+	#gatewayBox{
+		width: 60%;
+		margin: 1em 20% 0;
+	}
+
+	#recipeSearch{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.recipeLink{
+		width: 60%;
+		padding-left: 20%;
+		padding-right: 20%;
+
+	}
+
+	#overBox #contents{
+		width: 60%;
+		height: 84%;
+		margin: 6% 20%;
+	}
+
+
+}
+
+
+@media screen and (min-width: 1500px){
+
+	#titleBox{
+		margin-top: 3em;
+	}
+
+	#gatewayBox{
+		width: 50%;
+		margin: 2em 25% 0;
+	}
+
+	#recipeSearch{
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.recipeLink{
+		width: 50%;
+		padding-left: 25%;
+		padding-right: 25%;
+
+	}
+
+		#overBox #contents{
+		width: 50%;
+		height: 82%;
+		margin: 8% 25%;
+
+	}
+
+}

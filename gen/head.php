@@ -7,7 +7,7 @@
 echo 	$setup->getPageMeta(),
 		$deployCss,
 		$setup->getGoogleFontsCss(),
-		'<base href=',$setup->getSiteRoot(),'/>',
+		'<base href="',$setup->getSiteRoot(),'"/>',
 		'<!--[if lt IE 9]>',
 		'<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>',
 		'<![endif]-->',
